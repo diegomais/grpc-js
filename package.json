@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "gRPC example",
   "scripts": {
-    "compile": "protoc --js_out=import_style=commonjs,binary:. proto/notes.proto"
+    "compile": "protoc --js_out=import_style=commonjs,binary:. proto/notes.proto",
+    "start:server": "node src/server.js"
   },
   "keywords": [],
   "author": "Diego Mais <diegomais.dev@gmail.com>",
@@ -19,5 +20,9 @@
   "devDependencies": {
     "google-protobuf": "^3.17.3",
     "protobufjs": "^6.11.2"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.4",
+    "grpc": "^1.24.10"
   }
 }

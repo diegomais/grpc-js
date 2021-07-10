@@ -63,6 +63,22 @@ You can see the compiled protobuf file by running the instruction bellow on your
 run npm run compile
 ```
 
+### Installing the dependencies
+
+You can install dependencies by running the instruction bellow on your terminal:
+
+```bash
+npm install
+```
+
+### Running the services
+
+You can run the services by running the instruction bellow on your terminal:
+
+```bash
+npm run start:server
+```
+
 ## :thinking: How to contribute
 
 1. Fork this repository;

@@ -1,0 +1,23 @@
+{
+  "name": "grpc-example",
+  "version": "1.0.0",
+  "description": "gRPC example",
+  "scripts": {
+    "compile": "protoc --js_out=import_style=commonjs,binary:. proto/notes.proto"
+  },
+  "keywords": [],
+  "author": "Diego Mais <diegomais.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomais/grpc-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomais/grpc-js/issues"
+  },
+  "homepage": "https://github.com/diegomais/grpc-js#readme",
+  "devDependencies": {
+    "google-protobuf": "^3.17.3",
+    "protobufjs": "^6.11.2"
+  }
+}

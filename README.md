@@ -77,6 +77,7 @@ You can run the services by running the instruction bellow on your terminal:
 
 ```bash
 npm run start:server
+npm run start:client
 ```
 
 ## :thinking: How to contribute
